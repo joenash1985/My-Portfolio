@@ -1,0 +1,272 @@
+.wrapper
+{
+	
+}
+
+.section
+{
+	width:100%;
+	margin:auto;
+	clear:both;
+}
+
+.sectionmax
+{
+	max-width:1100px;	
+	margin:auto;
+	clear:both;
+}
+
+.sectionpad
+{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+.sectionpadbig
+{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.sectionpadall
+{
+	padding:2%;
+}
+
+.padleft
+{
+	padding-left:10%
+}
+
+.padright
+{
+	padding-right:10%
+}
+
+.sectionpadtop
+{
+	padding-top:2%;
+}
+
+.sectionpadbot
+{
+	padding-bottom:2%;
+}
+
+.bgcover
+{
+	min-height:400px;
+	margin-bottom:-1px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.left
+{
+	text-align:left;
+}
+
+.right
+{
+	text-align:right;
+}
+
+/*3 equal columns*/
+.col-1 .col
+{
+	width:100%;
+	margin-bottom:2%;
+	clear:both;
+}
+
+.col-2 .col
+{
+	width:48%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+.col-3 .col
+{
+	width:32%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+.col-4 .col
+{
+	width:23.5%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+.col-2-1 .col
+{
+	width:31.9%;
+	float:right;
+	margin-right:0%;
+	margin-bottom:2%;
+}
+
+.col-2-1 .col:first-child
+{
+	width:64%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+
+.col-3 .col:last-child, .col-2 .col:last-child, .col-4 .col:last-child
+{
+    margin-right:0%;
+	float:right;
+}
+
+.col-3:after, .col-2:after, .col-2-1:after, .col-4:after
+{
+	float:none;
+	clear:both;
+}
+
+
+/*3 equal columns*/
+.box-1 .box
+{
+	width:100%;
+	clear:both;
+}
+
+.box-2 .box
+{
+	width:50%;
+	float:left;
+}
+
+.box-3 .box
+{
+	width:33.33%;
+	float:left;
+}
+
+.box-4 .box
+{
+	width:25%;
+	float:left;
+}
+
+.box-2-1 .box
+{
+	width:35%;
+	float:right;
+}
+
+.box-2-1 .box:first-child
+{
+	width:65%;
+	float:left;
+}
+
+.box-3 .box:last-child, .box-2 .box:last-child, .box-4 .box:last-child
+{
+	float:right;
+}
+
+.box-3:after, .box-2:after, .box-2-1:after, .box-4:after
+{
+	float:none;
+	clear:both;
+}
+
+.cleargrid
+{
+	clear:both;
+}
+
+@media only screen and (max-width: 1500px) {
+	
+	.sectionmax
+	{
+		width:90%;
+		margin:auto;
+	}
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	.col-4 .col
+    {
+        width:48%;
+        float:left;
+        margin-right:2%;
+        margin-bottom:2%;
+    }
+	
+	.sectionmax
+	{
+		width:85%;
+		margin:auto;
+	}
+	
+	.sectionpad
+	{
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+	.sectionpadtop
+	{
+		padding-top:20px;
+	}
+	
+	.sectionpadbot
+	{
+		padding-bottom:20px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.col-2-1 .col, .col-2-1 .col:first-child
+	{
+		width:100%;
+		float:none;
+	}
+	
+	.box-2-1 .box, .box-2-1 .box:first-child
+	{
+		width:100%;
+		float:none;
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.col-3 .col, .col-2 .col, .col-2-1 .col, .col-2-1 .col:first-child, .col-4 .col
+	{
+		width:100%;
+		float:none;
+	}
+	
+	.box-3 .box, .box-2 .box, .box-2-1 .box, .box-2-1 .box:first-child, .box-4 .box
+	{
+		width:100%;
+		float:none;
+	}
+	
+	.sectionmax
+	{
+		width:85%;
+		margin:auto;
+	}
+}
